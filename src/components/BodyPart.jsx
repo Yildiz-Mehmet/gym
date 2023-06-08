@@ -35,6 +35,7 @@ const BodyPart = ({ item, bodyPart, setBodyPart }) => {
         alt="dumbbell"
         style={{ width: "40px", height: "40px" }}
       />
+      <Typography>{item}</Typography>
     </Stack>
   );
 };
